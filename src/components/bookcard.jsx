@@ -5,8 +5,8 @@ const BookCard = ({book}) => {
     <div>
       <img src={book.image} alt={book.name} />
       <h2>{book.name}</h2>
-      <span>{book.genre}</span>
-      <span>{book.author}</span>
+      <p>{book.genre}</p>
+      <p>{book.author}</p>
     </div>
   )
 }

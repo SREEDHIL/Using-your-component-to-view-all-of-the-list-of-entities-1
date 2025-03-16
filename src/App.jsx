@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import BookCard from './components/BookCard';
 
 function App() {
